@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGC School Header</title>
+   <Link href="Table.css" ref="stylesheet" type="text/css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    /*     //Start */
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 200px;
+}
+.header {
+    margin: 0%;
+    background-color: #2F398D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo img {
+    height: 55px;
+    width: 370px;
+    margin-right: 15px;
+    padding-left: 90px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.highlight {
+    color: #FFD700;
+}
+.actions {
+    padding-right: 130px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.actions img {
+    height: 20px;
+    cursor: pointer;
+}
+.register-button {
+    background-color: #39C0ED;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.background img
+{
+    height: 480px;
+    width: 100%;
+}
+
+
+
+
+/* //Form diền */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #2b3a80;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #2b3a80;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.form-section {
+    background-color: #ffffff77;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #2b3a80;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2b3a80;
+    
+}
+
+input[type="file"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+label {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;  
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #2b3a80;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1f2c60;
+}
+
+
+
+/* //The end */
+.footer {
+padding-top: 0px;
+background-color: #2F398D;
+color: #ffffff;
+padding: 20px;
+}
+.footer .top-bar {
+background-color: #3f4d8b;
+padding: 10px 0;
+text-align: center;
+font-size: 14px;
+}
+.footer .top-bar a {
+color: #ffffff;
+margin: 0 15px;
+text-decoration: none;
+}
+.footer .container {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.footer .logo {
+width: 340px;
+margin-right: 120.5px;
+
+}
+.footer .logo img {
+width: 400px;
+height: 75px;
+}
+.footer .contact-info, .footer .links, .footer .social {
+width: 100%;
+max-width: 600px;
+margin: 10px 0;
+
+}
+.footer h3 {
+color: #82baff;
+font-size: 16px;
+margin-bottom: 10px;
+}
+.footer a {
+color: #82baff;
+text-decoration: none;
+display: block;
+margin: 5px 0;
+}
+.footer .contact-info p {
+margin: 5px 0;
+
+}
+.footer .social-icons {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.footer .social-icons img {
+width: 30px;
+height: 30px;
+}
+.footer .bottom-text { 
+text-align: center;
+color: #ffffff;
+margin-top: 20px;
+}
+.footer .links
+{
+display: flex;
+
+}
+.links
+{
+display: flex;
+}
+h6
+{
+color: #2F398D ; 
+}
+
+
+.containercard
+{
+display: flex;
+padding-right: 10px;
+}
+
+
+.card{
+ background-color: #2F398D;
+ flex: 1;
+ transition: .4s all ease;
+ height: 220px;
+ margin-left: 10px;
+ border-radius: 20px;
+ color: #ffffff;
+}
+.card:hover
+{
+    flex: 2;
+}
+
+.row
+{
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #34495e;
+    color: #FFD700;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="pic/z5987140149637_58cef58b20ce6454e887ac4c3030bb43.jpg" alt="IGC Logo">
+
+    
+        </div>
+        <nav class="nav-links">
+            <a href="#">GIỚI THIỆU</a>
+            <a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a>
+            <a href="#">TUYỂN SINH</a>
+            <a href="#" class="highlight">CUỘC SỐNG HỌC ĐƯỜNG</a>
+        </nav>
+        <div class="actions">
+            <span>Tin tức - Sự kiện</span> |
+            <span>Phụ huynh</span> |
+            <span>Liên hệ</span> |
+            
+            <img src="pic/vn2.png" alt="Vietnam Flag">
+            <img src="pic/en2.png" alt="UK Flag">
+            <button class="register-button">Đăng ký nhập học</button>
+
+       
+        </div>
+    
+    </header>
+
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <a href="#overview">Tổng hợp thông tin</a>
+        <a href="#students">Sinh viên</a>
+        <a href="#teachers">Giáo Viên</a>
+        <a href="#classes">Lớp học</a>
+        <a href="#events">Sự kiện</a>
+ 
+    </div>
+
+    <section class="middle">
+     <div class="background">
+        <img src="pic/z5983171000353_783737e2cef6d1cdd6e435b4fb085abb.jpg">
+     </div>
+
+
+
+     <div class="container">
+        <header class="table">
+            <a href="#" style="color: #2b3a80;"><h1>Xe Đưa Rước </h1></a>
+            <nav style="display: flex;margin-left: 45px;">
+                <a href="#">Bán trú</a>
+                <a href="#">Sổ tay học sinh</a>
+                <a href="#">Câu chuyện thành công</a>
+                <a href="#">Lịch hoạt động</a>
+                <a href="#">Hướng dẫn ứng dụng VNEDU </a>
+              
+            </nav>
+        </header>
+        
+       
+
+        <div class="containercard">
+        
+            <div class="card" style="background-image: url(pic/slider3.jpg);"></div>
+            
+        </div>
+
+        <div style="background-size: cover;">
+
+        </div>
+   
+
+<!-- //form Thông tin điền -->
+
+
+        <section class="form-section">
+                
+            <a href="#"><h2>Bảng Đăng Ký Xe Đưa Đón</h2></a>
+            <form action="#" method="post">
+                <fieldset>
+                    <a href="#"><legend>Thông tin liên lạc</legend></a>
+                    <label for="parentName">Họ tên Cha mẹ/Người giám hộ học sinh <b style="color: red;">*</b> </label>
+                    <input type="text" id="parentName" name="parentName" required>
+
+                    <label for="idNumber">Số CCCD/CMND <b style="color: red;">*</b> </label>
+                    <input type="text" id="idNumber" name="idNumber" required>
+
+                    <label for="issueDate">Ngày cấp <b style="color: red;">*</b> :</label>
+                    <input type="date" id="issueDate" name="issueDate" style="height: 23.5px;"><br>
+
+                    <label for="issuePlace">Nơi cấp <b style="color: red;">*</b></label>
+                    <input type="text" id="issuePlace" name="issuePlace">
+
+                    <label for="address">Địa chỉ <b style="color: red;">*</b> </label>
+                    <input type="text" id="address" name="address">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="phone">Điện thoại <b style="color: red;">*</b></label>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+                
+    
+
+                <fieldset>
+                    <a href="#"><legend>Thông tin học sinh<b style="color: red;">*</b> </legend></a>
+                    <label for="studentName">Họ và tên học sinh <b style="color: red;">*</b></label>
+                    <input type="text" id="studentName" name="studentName" required>
+
+                    <label for="class">Lớp <b style="color: red;">*</b></label>
+                    <input type="text" id="class" name="class">
+                </fieldset>
+
+                <fieldset>
+                    <a href="#"><legend>Thông tin đưa đón <b style="color: red;">*</b></legend></a>
+                    <label>Thời gian:</label>
+                    <input type="radio" name="time" value="morning"> Buổi sáng
+                    <input type="radio" name="time" value="afternoon"> Buổi chiều
+                    <input type="radio" name="time" value="both"> Hai buổi
+
+                    <label for="pickupLocation">Điểm đón/trả học sinh <b style="color: red;">*</b></label>
+                    <input type="text" id="pickupLocation" name="pickupLocation">
+                </fieldset>
+
+                
+
+<!-- //Thông tin liên lạc -->
+
+                    <fieldset>
+                        <a href="#"><legend>Thông tin người đưa đón học sinh <b style="color: red;">*</b></legend></a>
+                        <input type="file" id="uploadPhoto1" name="uploadPhoto1">
+                        <input type="file" id="uploadPhoto2" name="uploadPhoto2">
+                        
+                        <label>
+                            <input type="checkbox" name="agree1" required> Tôi đã đọc và đồng ý tuân thủ theo quy định và nhắc nhở con em mình thực hiện đúng nội quy nhà trường đã đưa ra.
+                        </label><br>    
+                        <label>
+                            <input type="checkbox" name="agree2" required> Đồng ý nhận tin nhắn (thông báo giờ đến trường và rời trường hàng ngày).
+                        </label>
+ 
+                    </fieldset>
+                    <button type="submit" style="width: 100px; border-radius: 20px;">Gửi</button>
+                </form>
+            </section>
+        </div>
+        
+        <div class="logo2">
+            <img src="pic/5eeea355389655.59822ff824b72.gif" alt="GIF" style="width:100px;height:100px;margin-left: 850px;">
+        </div>
+    </section>
+    
+
+    <div class="container">
+        <div class="row">
+            
+          <div class="col-sm-4">
+          
+            <p>Sonadezi 대학 버스 등록 페이지에 오신 것을 환영합니다.</p>
+
+          </div>
+
+          <div class="col-sm-4">
+          
+            <p>Welcome to Sonadezi college's bus registration page</p>
+
+          </div>
+
+          <div class="col-sm-4">
+  
+            <p>ソナデジ大学のバス登録ページへようこそ</p>
+
+          </div>
+        </div>
+      </div>
+ 
+      <div class="container">
+                    
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="pic/464384209_944177481080777_2401336853833882116_n.jpg" >
+            </div>
+      
+            <div class="item">
+              <img src="pic/464233812_944177477747444_8994649485827396484_n.jpg">
+            </div>
+          
+            <div class="item">
+              <img src="pic/464106243_941488058016386_6716601413154567510_n.jpg">
+            </div>
+          </div>
+      
+          <!--trai-phai -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">quay về</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">tiếp theo</span>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="container">               
+        <ul class="pager">
+          <li><a href="#">Quay về</a></li>
+          <li><a href="#"  onclick="window.location.href='https://portal.sonadezi.edu.vn';" >Tiếp theo</a></li>
+        </ul>
+      </div>
+
+
+       
+<!-- //The End -->
+    <div class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="pic/z5987128707493_20818154be1bc5b3dd6238a62c9c2d04.jpg" alt="IGC Logo">
+            </div>
+
+            
+
+            <div class="contact-info">
+                <h3>TRƯỜNG CAO ĐẲNG CÔNG NGHỆ VÀ QUẢN TRỊ SONADEZI </h3>
+                <p><strong>Địa chỉ:</strong> Số 01, Đường 6A, KCN Biên Hòa II, Đồng Nai.</p>
+                <p><strong>Điện thoại:</strong> 0251.3994.011/012/013</p>
+                <p><strong>Email:</strong> info@sonadezi.edu.vn</p>
+                <p><strong>Ban Bảo vệ Trẻ em:</strong> 0972 777 670</p>
+                <p><a href="#">Chính sách bảo mật thông tin</a></p>
+            </div>
+
+            <div class="social">
+                <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/truongsonadezi" target="_blank"><img src="pic/fb.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/@sonadezicollege" target="_blank"><img src="pic/yt.png" alt="YouTube"></a>
+                    <a href="#"><img src="pic/zl.png" alt="Zalo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-text">© TẬP ĐOÀN GIÁO DỤC IGC</div>
+        
+
+        
+    </div>
+
+    
+      
+</body>
+</html>
